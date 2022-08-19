@@ -1,4 +1,4 @@
-velocidade = float(input('Digite a velocidade do carro:'))
+velocidade = float(input('\033[1;32mInforme a velocidade do carro:\033[m'))
 
 if velocidade > 80:
     percentualExcedido = (velocidade - 80) * 100 / 80
